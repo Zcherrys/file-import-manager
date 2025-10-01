@@ -1,0 +1,9 @@
+{
+  "id": "file-import-manager",
+  "name": "File Import Manager",
+  "description": "接管 Obsidian 的导入功能，根据文件类型将拖入的文件复制到不同的指定文件夹。",
+  "author": "zfl.zhang",
+  "authorUrl": "",
+  "minAppVersion": "1.9.12",
+  "version": "0.1.0"
+}
