@@ -1,0 +1,67 @@
+/* File Import Manager - Obsidian Plugin Styles */
+
+/* 这里可以添加自定义样式 */
+
+/* 设置页面样式 */
+.file-type-mappings {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.file-type-mapping-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.file-type-mapping-item input[type="text"] {
+  padding: 4px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+
+.file-type-mapping-item button {
+  padding: 4px 8px;
+  background-color: var(--background-modifier-hover);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  color: var(--text-normal);
+  cursor: pointer;
+}
+
+.file-type-mapping-item button:hover {
+  background-color: var(--background-modifier-active);
+}
+
+/* File Import Manager 特有样式 - 只影响插件内部元素 */
+.file-category-item .setting-item-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  margin-bottom: 8px; /* 确保与下方元素有足够间距 */
+}
+
+/* 确保扩展名列表和添加按钮水平对齐 */
+.file-category-item .setting-item-description > div:first-of-type {
+  flex: 1;
+  margin-right: 8px;
+}
+
+/* 添加扩展名按钮样式 - 向上调整位置避免与分割线重叠 */
+.file-category-item .setting-item-description > button {
+  padding: 4px 8px;
+  background-color: var(--background-modifier-hover);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  color: var(--text-normal);
+  cursor: pointer;
+  white-space: nowrap;
+  margin-left: auto;
+  align-self: center;
+  position: relative;
+  top: -2px; /* 向上移动一点 */
+}
